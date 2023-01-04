@@ -1,0 +1,25 @@
+//reset
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: 100%;
+  text-decoration: none;
+  list-style: none;
+}
+
+//end reset
+
+//formatting for body of the page
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  //wallpapper
+  background-image: url("../images/wallpapper-game.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
